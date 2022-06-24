@@ -1,0 +1,43 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-color: #110851;
+    color: #ffffff;
+}
+
+#results {
+    font-size: 24px;
+}
+
+.view_container {
+    /* width: 580px; */
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+    -webkit-transform: translateY(-50%) !important;
+    -ms-transform: translateY(-50%) !important;
+    transform: translateY(-50%) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+input,
+button {
+    text-align: center;
+}
